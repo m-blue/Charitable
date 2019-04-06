@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Charitable</string>
+    <srinng name="mainTitle">Feeling Charitable?</srinng>
+    <string name="btnDonate">Donate</string>
+    <string name="btnAmount">See Donation Amount</string>
+    <string name="txtCharity1">Charity 1</string>
+    <string name="txtCharity2">Charity 2</string>
+    <string name="txtCharity3">Charity 3</string>
+    <string name="txtCharity4">Charity 4</string>
+</resources>
