@@ -7,4 +7,9 @@
     <string name="txtCharity2">Charity 2</string>
     <string name="txtCharity3">Charity 3</string>
     <string name="txtCharity4">Charity 4</string>
+
+    <string name="txtSummary1">Abcdefghijklmnopqrstuvwxyz Abcdefghijklmnopqrstuvwxyz
+    Abcdefghijklmnopqrstuvwxyz Abcdefghijklmnopqrstuvwxyz Abcdefghijklmnopqrstuvwxyz
+    Abcdefghijklmnopqrstuvwxyz Abcdefghijklmnopqrstuvwxyz Abcdefghijklmnopqrstuvwxyz
+    Abcdefghijklmnopqrstuvwxyz Abcdefghijklmnopqrstuvwxyz Abcdefghijklmnopqrstuvwxyz</string>
 </resources>
