@@ -16,35 +16,39 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/Title"
                 android:layout_width="match_parent"
-                android:layout_height="86dp"
+                android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Title"
-                android:textSize="30sp"
+                android:text="Doctors Without Borders"
+                android:textColor="@android:color/black"
+                android:textSize="36sp"
+                android:textStyle="bold"
                 tools:layout_editor_absoluteX="176dp"
                 tools:layout_editor_absoluteY="68dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                app:srcCompat="@drawable/msf" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txtSummary1"
-                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
                 tools:layout_editor_absoluteX="134dp"
                 tools:layout_editor_absoluteY="283dp" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="244dp"
-                tools:srcCompat="@tools:sample/avatars" />
 
             <Button
                 android:id="@+id/btnCharityDonate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/btnDonate"
+                android:textSize="30sp" />
         </LinearLayout>
     </ScrollView>
 
