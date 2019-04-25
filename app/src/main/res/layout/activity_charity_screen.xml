@@ -34,7 +34,7 @@
                 app:srcCompat="@drawable/msf" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/txtSummary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txtSummary1"
@@ -42,6 +42,15 @@
                 android:textSize="24sp"
                 tools:layout_editor_absoluteX="134dp"
                 tools:layout_editor_absoluteY="283dp" />
+
+            <EditText
+                android:id="@+id/txtAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:hint="Amount your Donating"
+                android:inputType="numberDecimal" />
 
             <Button
                 android:id="@+id/btnCharityDonate"
