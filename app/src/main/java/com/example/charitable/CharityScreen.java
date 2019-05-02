@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class CharityScreen extends AppCompatActivity {
 
@@ -18,6 +19,14 @@ public class CharityScreen extends AppCompatActivity {
 
         Button btnDonate = findViewById(R.id.btnCharityDonate);
         final EditText amountEdit = findViewById(R.id.txtAmount);
+        TextView txtSummary = findViewById(R.id.txtSummary);
+
+        Bundle bundle = getIntent().getExtras();
+        int location = bundle.getInt("location");
+        String[] s = getResources().getStringArray(R.array.txtSummary);
+        txtSummary.setText(s[location]);
+
+
 
         btnDonate.setOnClickListener(new View.OnClickListener() {
             @Override

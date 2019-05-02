@@ -29,7 +29,10 @@ public class Charity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Start Activity Position
-                startActivity(new Intent(Charity.this,CharityScreen.class));
+                int location = position;
+                Intent i = new Intent(Charity.this, CharityScreen.class);
+                i.putExtra("location",location);
+                startActivity(i);
             }
         });
     }

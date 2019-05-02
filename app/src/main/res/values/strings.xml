@@ -8,13 +8,26 @@
     <string name="txtCharity3">Charity 3</string>
     <string name="txtCharity4">Charity 4</string>
     <string-array name="charityArray">
-        <item>Charity 1</item>
-        <item>Charity 2</item>
-        <item>Charity 3</item>
-        <item>Charity 4</item>
+        <item>Doctors Without Borders</item>
+        <item>St. Jude Children\'s Research Hospital</item>
+        <item>Child\'s Play</item>
+        <item>Trevor Project</item>
     </string-array>
 
-    <string name="txtSummary1">An independent, global movement providing medical aid where it’s needed most.
+    <string name="txtSummary1"></string>
+
+    <string-array name="txtSummary">
+        <item>An independent, global movement providing medical aid where it’s needed most.
     Doctors Without Borders, is an international humanitarian medical non-governmental organisation (NGO)
-        of French origin best known for its projects in conflict zones and in countries affected by endemic diseases</string>
+        of French origin best known for its projects in conflict zones and in countries affected by endemic diseases</item>
+        <item>
+            St. Jude Children Research Hospital
+        </item>
+        <item>
+            Child\'s Play Summary
+        </item>
+        <item>
+            Trevor Project Summary
+        </item>
+    </string-array>
 </resources>
