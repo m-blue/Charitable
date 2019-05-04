@@ -2,12 +2,14 @@ package com.example.charitable;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.Image;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class CharityScreen extends AppCompatActivity {
@@ -19,12 +21,18 @@ public class CharityScreen extends AppCompatActivity {
 
         Button btnDonate = findViewById(R.id.btnCharityDonate);
         final EditText amountEdit = findViewById(R.id.txtAmount);
+        TextView txtTitle = findViewById(R.id.Title);
         TextView txtSummary = findViewById(R.id.txtSummary);
+        int[] imagesArray = {R.drawable.msf, R.drawable.sjcrh, R.drawable.ch, R.drawable.ttp};
+        ImageView logo = findViewById(R.id.imgLogo);
 
         Bundle bundle = getIntent().getExtras();
         int location = bundle.getInt("location");
         String[] s = getResources().getStringArray(R.array.txtSummary);
+        String[] t = getResources().getStringArray(R.array.charityArray);
         txtSummary.setText(s[location]);
+        txtTitle.setText(t[location]);
+        logo.setImageResource(imagesArray[location]);
 
 
 

@@ -30,4 +30,8 @@
             Trevor Project Summary
         </item>
     </string-array>
+
+    <string-array name="urlPages">
+
+    </string-array>
 </resources>
