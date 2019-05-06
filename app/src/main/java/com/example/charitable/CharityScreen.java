@@ -23,13 +23,19 @@ public class CharityScreen extends AppCompatActivity {
         final EditText amountEdit = findViewById(R.id.txtAmount);
         TextView txtTitle = findViewById(R.id.Title);
         TextView txtSummary = findViewById(R.id.txtSummary);
-        int[] imagesArray = {R.drawable.msf, R.drawable.sjcrh, R.drawable.ch, R.drawable.ttp};
+        int[] imagesArray = {R.drawable.msf,
+                R.drawable.sjcrh,
+                R.drawable.ch,
+                R.drawable.ttp,
+                R.drawable.arc,
+                R.drawable.tsa};
         ImageView logo = findViewById(R.id.imgLogo);
 
         Bundle bundle = getIntent().getExtras();
-        int location = bundle.getInt("location");
+        final int location = bundle.getInt("location");
         String[] s = getResources().getStringArray(R.array.txtSummary);
         String[] t = getResources().getStringArray(R.array.charityArray);
+        final String[] u = getResources().getStringArray(R.array.urlPages);
         txtSummary.setText(s[location]);
         txtTitle.setText(t[location]);
         logo.setImageResource(imagesArray[location]);
@@ -47,7 +53,7 @@ public class CharityScreen extends AppCompatActivity {
                 editor.putFloat("Amount",amount);
                 editor.commit();
 
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://donate.doctorswithoutborders.org/onetime.cfm"))); // TODO: Set this to different urls
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(u[location])));
             }
         });
     }

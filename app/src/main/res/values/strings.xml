@@ -12,26 +12,55 @@
         <item>St. Jude Children\'s Research Hospital</item>
         <item>Child\'s Play</item>
         <item>Trevor Project</item>
+        <item>American Red Cross</item>
+        <item>Salvation Army</item>
     </string-array>
 
     <string name="txtSummary1"></string>
 
     <string-array name="txtSummary">
-        <item>An independent, global movement providing medical aid where it’s needed most.
+        <item>An independent, global movement providing medical aid where it\’s needed most.
     Doctors Without Borders, is an international humanitarian medical non-governmental organisation (NGO)
         of French origin best known for its projects in conflict zones and in countries affected by endemic diseases</item>
         <item>
-            St. Jude Children Research Hospital
+            The mission of St. Jude Children\’s Research Hospital is to advance cures,
+            and means of prevention, for pediatric catastrophic diseases through research and treatment.
+            Consistent with the vision of our founder Danny Thomas, no child is denied treatment based on race,
+            religion or a family\'s ability to pay.
         </item>
         <item>
-            Child\'s Play Summary
+            Child\’s Play, a game industry charity dedicated to improving the lives of children with toys and games in our network of over 100 hospitals worldwide.
+            Over the years, you as a community have answered the call and come together to raise millions of dollars.
+            Child’s Play works in two ways. With the help of hospital staff, we set up gift wish lists full of video games,
+            toys, books, and other fun stuff for kids. By clicking on a hospital location on our map, you can view that hospital’s wish list and send a gift.
         </item>
         <item>
-            Trevor Project Summary
+            The Trevor Project is an American non-profit organization
+            founded in 1998 focused on suicide prevention efforts among lesbian, gay,
+            bisexual, transgender, and questioning youth. Through a toll-free telephone number,
+            it operates The Trevor Lifeline,
+            a confidential service that offers trained counselors.
+        </item>
+        <item>
+            The American Red Cross, also known as The American National Red Cross, is a humanitarian organization that provides emergency assistance, disaster relief,
+            and disaster preparedness education in the United States.
+            The American Red Cross prevents and alleviates human suffering in the face of emergencies by mobilizing the power of volunteers and the generosity of donors.​
+        </item>
+        <item>
+             The Salvation Army, an international movement, is an evangelical part of the universal Christian Church.
+            Its message is based on the Bible.
+            Its ministry is motivated by the love of God.
+            Its mission is to preach the gospel of Jesus Christ and to meet human needs in His name without discrimination.
         </item>
     </string-array>
 
     <string-array name="urlPages">
+        <item>https://donate.doctorswithoutborders.org/onetime.cfm</item>
+        <item>https://www.stjude.org/donate/donate-to-st-jude.html?sc_icid=wtg-mm-btn-donate-now</item>
+        <item>https://www.childsplaycharity.org/donate</item>
+        <item>https://give.thetrevorproject.org/give/63307/#!/donation/checkout</item>
+        <item>https://www.redcross.org/donate/donation.html/</item>
+        <item>https://www.salvationarmyusa.org/usn/</item>
 
     </string-array>
 </resources>
